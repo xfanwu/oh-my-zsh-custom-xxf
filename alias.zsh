@@ -10,4 +10,7 @@ alias vim="mvim"
 alias pow_restart="touch ~/tmp/restart.txt"
 
 # built-in servers
-alias pysvr="python -m SimpleHTTPServer 8000" phpsvr0="php -S localhost:8000" phpsvr1="php -S localhost:8001"
+alias pysvr="python -m SimpleHTTPServer 8000" 
+alias rubysvr="ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'" 
+alias phpsvr0="php -S localhost:8000" 
+alias phpsvr1="php -S localhost:8001"
