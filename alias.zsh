@@ -14,7 +14,7 @@ alias phpsvr0="php -S localhost:8000"
 alias phpsvr1="php -S localhost:8001"
 
 # git
-alias gim "git ci -m"
+alias gim="git ci -m"
 
 # others
 alias cl="clear"
