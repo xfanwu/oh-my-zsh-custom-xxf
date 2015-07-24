@@ -20,3 +20,4 @@ alias gim="git ci -m"
 # others
 alias cl="clear"
 alias vim="mvim"
+alias rake="noglob rake"
