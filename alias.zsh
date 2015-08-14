@@ -9,9 +9,7 @@ alias pow_restart="touch ~/.pow/restart.txt"
 
 # built-in servers
 alias pysvr="python -m SimpleHTTPServer 8000" 
-alias jksvr="jekyll serve --watch"
-alias rubysvr="ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'" 
-alias phpsvr0="php -S localhost:8000" 
+alias rubysvr="ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 3001, :DocumentRoot => Dir.pwd).start'" 
 alias phpsvr1="php -S localhost:8001"
 
 # git
