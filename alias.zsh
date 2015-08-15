@@ -1,9 +1,9 @@
 # Custom directory access
 # Add symbolic link to home first
-todo=/Users/wuxxf/todo
-dropbox=/Users/wuxxf/Dropbox
-googledrive=/Users/wuxxf/Google\ Drive
-
+todo=~/todo
+dropbox=~/Dropbox
+googledrive=~/Google\ Drive
+dotfiles=~/Code/dotfiles
 # pow
 alias pow_restart="touch ~/.pow/restart.txt"
 
@@ -20,3 +20,4 @@ alias gimc="git ci --amend -m"
 alias cl="clear"
 alias vim="mvim"
 alias rake="noglob rake"
+alias sourcezshrc="source ~/.zshrc"
