@@ -6,6 +6,7 @@ googledrive=~/Google\ Drive
 dotfiles=~/Code/dotfiles
 # pow
 alias pow_restart="touch ~/.pow/restart.txt"
+alias pow="powify"
 
 # built-in servers
 alias pysvr="python -m SimpleHTTPServer 8000" 
