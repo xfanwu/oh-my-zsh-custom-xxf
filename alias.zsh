@@ -16,6 +16,7 @@ alias phpsvr1="php -S localhost:8001"
 # git
 alias gim="git ci -m"
 alias gimc="git ci --amend -m"
+alias giv="git commit --verbose"
 
 # others
 alias cl="clear"
