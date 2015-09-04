@@ -4,6 +4,7 @@ todo=~/todo
 dropbox=~/Dropbox
 googledrive=~/Google\ Drive
 dotfiles=~/Code/dotfiles
+
 # pow
 alias pow_restart="touch ~/.pow/restart.txt"
 alias pow="powify"
@@ -24,3 +25,4 @@ alias vim="mvim"
 alias rake="noglob rake"
 alias sourcezshrc="source ~/.zshrc"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias trash="rmtrash"
