@@ -4,6 +4,7 @@ todo=~/todo
 dropbox=~/Dropbox
 googledrive=~/Google\ Drive
 dotfiles=~/Code/dotfiles
+work=~/work
 
 # pow
 alias pow_restart="touch ~/.pow/restart.txt"
