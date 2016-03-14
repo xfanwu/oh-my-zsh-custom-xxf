@@ -16,7 +16,7 @@ alias rubysvr="ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 3001, :Documen
 alias phpsvr1="php -S localhost:8001"
 
 # git
-alias gim="git ci -m"
+alias gc="git commit"
 alias gimc="git ci --amend -m"
 alias giv="git commit --verbose"
 
