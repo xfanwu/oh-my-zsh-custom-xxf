@@ -1,10 +1,8 @@
 # Custom directory access
 # Add symbolic link to home first
-todo=~/todo
-dropbox=~/Dropbox
-googledrive=~/Google\ Drive
-dotfiles=~/Code/dotfiles
-work=~/work
+
+# googledrive=~/Google\ Drive
+# dotfiles=~/Code/dotfiles
 
 # pow
 alias pow_restart="touch ~/.pow/restart.txt"
@@ -14,6 +12,7 @@ alias pow="powify"
 alias pysvr="python -m SimpleHTTPServer 8000" 
 alias rubysvr="ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 3001, :DocumentRoot => Dir.pwd).start'" 
 alias phpsvr1="php -S localhost:8001"
+alias nodesvr="hs -p 8000"
 
 # git
 alias gc="git commit"
