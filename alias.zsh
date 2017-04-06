@@ -25,3 +25,12 @@ alias vim="mvim"
 alias rake="noglob rake"
 alias sourcezshrc="source ~/.zshrc"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+#cnpm
+alias cnpm="npm --registry=https://registry.npm.taobao.org \
+--cache=$HOME/.npm/.cache/cnpm \
+--disturl=https://npm.taobao.org/dist \
+--userconfig=$HOME/.cnpmrc"
+
+#ssh
+alias ssh-fgg="ssh ppn029012@fgg"
