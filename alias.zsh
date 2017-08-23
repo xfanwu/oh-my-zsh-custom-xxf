@@ -34,3 +34,9 @@ alias cnpm="npm --registry=https://registry.npm.taobao.org \
 
 #ssh
 alias ssh-fgg="ssh ppn029012@fgg"
+
+#deploy
+alias deploy-fggadmin="ssh -t ppn029012@fgg 'cd fagougou-admin && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"ADMIN\"'"
+alias deploy-fgg="ssh -t ppn029012@fgg 'cd fagougou.com && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"FGG.COM\"'"
+#alias deploy-fgg='ssh -t ppn029012@fgg "cd fagougou.com && ./deploy.sh"'
+#alias deploy-fggbeta='ssh -t root@beta.fagougou.com "cd fagougou.com && ./deploy.sh"'
