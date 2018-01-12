@@ -36,7 +36,9 @@ alias cnpm="npm --registry=https://registry.npm.taobao.org \
 alias ssh-fgg="ssh ppn029012@fgg"
 
 #deploy
-alias deploy-fggadmin="ssh -t ppn029012@fgg 'cd fagougou-admin && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"ADMIN\"'"
-alias deploy-fgg="ssh -t ppn029012@fgg 'cd fagougou.com && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"FGG.COM\"'"
-#alias deploy-fgg='ssh -t ppn029012@fgg "cd fagougou.com && ./deploy.sh"'
-#alias deploy-fggbeta='ssh -t root@beta.fagougou.com "cd fagougou.com && ./deploy.sh"'
+alias deploy-fggadmin="ssh -t fggdev@qq-fgg-web 'NODE_ENV=production cd fagougou-admin && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"ADMIN\"'"
+alias deploy-fgg-production="ssh -t fggdev@qq-fgg-web 'NODE_ENV=production cd fagougou.com && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"FGG.COM\"'"
+alias deploy-fgg-beta="ssh -t ubuntu@qq-fgg-training 'NODE_ENV=production NODE_ENV_BETA=beta cd fagougou.com && ./deploy.sh' && osascript -e 'display notification \"部署成功!\" with title \"FGG.COM\"'"
+alias log-fgg="ssh -t fggdev@qq-fgg-web 'pm2 logs fgg-old --lines 500'"
+alias log-fgg-beta="ssh -t ubuntu@qq-fgg-training 'pm2 logs fgg --lines 500'"
+alias log-fggadmin="ssh -t fggdev@qq-fgg-web 'pm2 logs fggadmin --lines 500'"
