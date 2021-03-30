@@ -20,7 +20,7 @@ Save the file then open a new terminal. That's it!
 
 If everything is ok, the result should be:
 
-![xxf result](http://oi58.tinypic.com/24oble1.jpg)
+![xxf result](https://i.ibb.co/rtGyPRs/Wechat-IMG230.png)
 
 	
 	
