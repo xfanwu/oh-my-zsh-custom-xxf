@@ -18,3 +18,12 @@ alias cl="clear"
 alias vim="mvim"
 alias srczshrc="source ~/.zshrc"
 
+# ssh
+alias sshawsjp="ssh -i ~/.ssh/aws-jp-free-for-one-year-20180517.pem ubuntu@aws-jp-ss"
+alias sshawsjpfgg="ssh -i ~/.ssh/aws-jp-wxf-fgg-free-2019-01-10.pem ubuntu@aws-jp-ss-wxffgg"
+alias sshfgg="ssh ubuntu@fgg-jumper -p 23333"
+
+alias cnpm="npm --registry=https://registry.npm.taobao.org \
+--cache=$HOME/.npm/.cache/cnpm \
+--disturl=https://npm.taobao.org/dist \
+--userconfig=$HOME/.cnpmrc"
